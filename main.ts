@@ -121,7 +121,8 @@ export default class FrontmatterModified extends Plugin {
           // and are both syncing and updating each other.
           const now = moment()
           // Are we appending to an array of entries?
-          const isAppendArray = frontmatter[this.settings.appendField] === true
+          // const isAppendArray = frontmatter[this.settings.appendField] === true
+          const isAppendArray = true // EDIT: always appending to an array
           let secondsSinceLastUpdate = Infinity
           let previousEntryMoment
           if (frontmatter[this.settings.frontmatterProperty]) {

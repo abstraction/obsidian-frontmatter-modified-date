@@ -1,6 +1,6 @@
 {
 	"id": "frontmatter-modified-date",
-	"name": "MODED: Update modified date",
+	"name": "MODDED: Update modified date",
 	"version": "1.3.2",
 	"minAppVersion": "0.15.0",
 	"description": "(Logs update as an array) Automatically update a frontmatter modified date field when you modify your note. This will not use the filesystem time, but only when you modify the file through Obsidian. Optionally store a history of edit times.",
